@@ -8,27 +8,27 @@ var questionAnswer = [
     {
         q: "What was the first full length CGI movie?",
         ch: ["A Bug's Life", "Monsters Inc", "Toy Story", "The Lion King"],
-        ans: 0
+        ans: 2
     },
     {
         q: "Which of these is not a name of spice girls?",
         ch: ["Sporty Spice", "Fred Spice", "Scary Spice", "Posh Spice"],
-        ans: 1
+        ans: 2
     },
     {
         q: "Which NBA team won the most titles in 90s?",
         ch: ["New York Snicks", "Portland TrailBlazers", "Los Angeles Lakers", "Chicago Bulls"],
-        ans: 2
+        ans: 3
     },
     {
         q: "Which group released the hit song ,'smells like teen spirit'?",
         ch: ["Nirvana", "The backstreet boys", "The Offspring", "No Doubt"],
-        ans: 3
+        ans: 1
     },
     {
         q: "Which popular disney movie featured the song,'Circle Of Life'?",
         ch: ["Aladdin", "Hercules", "Mulan", "The Lion King"],
-        ans: 2
+        ans: 3
     },
     {
         q: "What was Doug's best friend's name?",
@@ -75,7 +75,7 @@ function startgame() {
             a1.push(userPick);
             console.log(userPick);           
         }
-        if (userPick == questionAnswer[2].ans) {
+        if (userPick == questionAnswer[0].ans) {
             correctanswers++;
         } else {
             incorrectanswers++;
